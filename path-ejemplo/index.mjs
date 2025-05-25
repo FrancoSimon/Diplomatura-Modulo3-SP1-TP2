@@ -1,7 +1,6 @@
 import path from 'path' ;
 // Definir una ruta de archivo de ejemplo
 const filePath = './data/example.txt';
-console.log('Ruta del Archivo:', filePath);
 // Obtener el directorio base
 const dirName = path.dirname(filePath);
 console.log('Directorio base:', dirName);
